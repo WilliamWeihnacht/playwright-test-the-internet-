@@ -1,5 +1,4 @@
 import { test, expect } from '@playwright/test';
-import exp from 'constants';
 
 test.beforeEach('Open start URL',async ({ page }) => {
   console.log(`Running ${test.info().title}`);
